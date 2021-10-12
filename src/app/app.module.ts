@@ -5,10 +5,11 @@ import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { CommonHelperModule } from './features/common/common-module.module'
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, CommonHelperModule],
+  imports: [BrowserModule, AppRoutingModule, CommonHelperModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
